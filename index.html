@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Homework1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    
+    <header>
+      <h1>Homework 1: Table with input form.*</h1>
+    </header>
+    
+    <main>
+      <form>
+        <div class="in">  
+          <label for "f_name"> First name: </label>
+          <input id="f_name" type="text" required>
+        </div>
+        <div class="in">
+          <label for "l_name"> Last name: </label>
+          <input id="l_name" type="text" required>
+        </div>
+        <div class="in">
+          <label for "age"> Age: </label>
+          <input id="age"type="number" required>
+        </div>
+        <div class="in">
+          <label for "country"> Country: </label>
+          <input id="country"type="text" required>
+        </div>
+        <div class="bt">
+          <br>
+          <input id="bt_add" type="button" value="Add">
+          <input id="bt_upd" type="button" value="Update">
+          <input id="bt_can" type="button" value="Cancel">
+        </div>
+      </form>
+    
+      <table>
+        <thead></thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Country</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Connor</td>
+            <td>14</td>
+            <td>USA</td>
+            <td><span class="ed">edit</span>, <span class="del">delete</span></td>
+          </tr>
+          <tr>
+            <td>Ellen</td>
+            <td>Ripley</td>
+            <td>18</td>
+            <td>Ireland</td>
+            <td><span class="ed">edit</span>, <span class="del">delete</span></td>
+          </tr>
+          <tr>
+            <td>James</td>
+            <td>Bond</td>
+            <td>30</td>
+            <td>England</td>
+            <td><span class="ed">edit</span>, <span class="del">delete</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    
+    <footer>
+      * look, without scipt.
+    </footer>
+    
+  </body>
+
+</html>
